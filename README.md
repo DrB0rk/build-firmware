@@ -12,7 +12,7 @@ clone this repo and in the same folder clone your fimware of choise. make sure t
 
 ## step 2:
 
-open a terminal in the same directory and run this command: `docker compose up` and wait for the build to finish. (this can take a while)
+open a terminal in the same directory and run this command: `docker compose up` and wait for the build to finish. (this can take a while, about 10 minutes)
 
 ## step 3:
 
