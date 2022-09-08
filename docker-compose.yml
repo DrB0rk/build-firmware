@@ -7,7 +7,6 @@ services:
         source: flipperzero-firmware
         target: /home/flipperzero-firmware
     build: .
-    # command: tail -F anything
 
 volumes:
   flipware:
