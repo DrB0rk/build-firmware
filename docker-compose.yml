@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  dockerzero:
+    volumes:
+      - type: bind
+        source: flipperzero-firmware
+        target: /home/flipperzero-firmware
+    build: .
+    # command: tail -F anything
+
+volumes:
+  flipware:
+    external: true
